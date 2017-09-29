@@ -24,13 +24,31 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </arscnView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eeJ-g0-ac3">
+                                <rect key="frame" x="20" y="567" width="80" height="80"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="1m9-nP-jA9"/>
+                                    <constraint firstAttribute="width" constant="80" id="31X-mc-p3J"/>
+                                </constraints>
+                                <state key="normal" title="Add"/>
+                                <connections>
+                                    <action selector="add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZLQ-Q4-139"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="5no-6T-0Zv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7g7-dq-xn6"/>
+                            <constraint firstItem="5no-6T-0Zv" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="OO6-eL-Mfk"/>
                             <constraint firstItem="5no-6T-0Zv" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="OUF-la-PKX"/>
+                            <constraint firstItem="5no-6T-0Zv" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Q1p-sN-lZ2"/>
+                            <constraint firstItem="5no-6T-0Zv" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="UWE-Y6-sDH"/>
                             <constraint firstItem="5no-6T-0Zv" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="bjc-Il-lZu"/>
+                            <constraint firstItem="5no-6T-0Zv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="f3K-gQ-XGz"/>
                             <constraint firstItem="5no-6T-0Zv" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="fye-CU-OJF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eeJ-g0-ac3" secondAttribute="bottom" constant="20" id="jdl-Mg-AzR"/>
+                            <constraint firstItem="eeJ-g0-ac3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="o2C-dJ-4cR"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
